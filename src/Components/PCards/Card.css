@@ -1,0 +1,50 @@
+.card {
+   backdrop-filter: blur(0px);
+    background: rgba(256, 255, 255, 0.2); 
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    position: sticky;
+}
+
+.row-buttons{ 
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 1rem; 
+    position: relative;
+    gap: 20px; 
+    margin: 0 auto;
+}
+
+  
+
+button{
+    width: 100%;
+}
+.titulo {
+    width: 97%;
+   
+}
+  
+.link {
+    width: 97%;
+   
+}
+  
+.card:hover {
+    box-shadow: rgba(256, 255, 255, 0.2) 5px 3px 3px 3px;
+    width: 101%;
+    backdrop-filter: blur(7px);
+    color: black;
+    
+}
+  
+.image {
+    width: 80%;
+    border-radius: 20px;
+   
+}
+  

@@ -1,0 +1,23 @@
+
+.grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border: 1px solid #000;
+    }
+
+    .grid-item {
+      border: 1px solid #000;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Estilos adicionales para mejorar la apariencia */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .grid-container {
+      margin-bottom: 20px;
+    }
